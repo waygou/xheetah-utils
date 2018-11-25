@@ -1,0 +1,42 @@
+{
+    "name": "waygou/xheetah-utils",
+    "description": "Xheetah utilities for external usage.",
+    "type": "library",
+    "keywords": [
+        "utilities",
+        "xheetah",
+        "courier",
+        "management",
+        "waygou",
+        "laravel",
+        "php"
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.7.*",
+        "laraning/boost": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Waygou\\XheetahUtils\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Waygou\\XheetahUtils\\ServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Waygou",
+            "email": "bruno.falcao@waygou.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
