@@ -2,8 +2,8 @@
 
 namespace Waygou\XheetahUtils\Models;
 
-use Illuminate\Database\Eloquent\Model;
 use Hyn\Tenancy\Traits\UsesSystemConnection;
+use Illuminate\Database\Eloquent\Model;
 
 class SvgIcon extends Model
 {
