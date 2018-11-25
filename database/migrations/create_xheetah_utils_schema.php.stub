@@ -40,7 +40,7 @@ class CreateXheetahUtilsSchema extends Migration
         });
 
         // Load Heroicons svgs into the database.
-        Collection::make(glob(resource_path('svg/vendor/xheetah-utils/zondicons/*.svg')))
+        Collection::make(glob(resource_path('svg/vendor/xheetah-utils/svg/zondicons/*.svg')))
                   ->map(function ($filename) {
                       // Extract SVG data from filename.
                       $parts = explode('"', file_get_contents($filename));
@@ -54,7 +54,7 @@ class CreateXheetahUtilsSchema extends Migration
                   });
 
         // Load Heroicons svgs into the database.
-        Collection::make(glob(resource_path('svg/vendor/xheetah-utils/heroicons/*.svg')))
+        Collection::make(glob(resource_path('svg/vendor/xheetah-utils/svg/heroicons/*.svg')))
                   ->map(function ($filename) {
                       // Extract SVG data from filename.
                       $parts = explode('"', file_get_contents($filename));

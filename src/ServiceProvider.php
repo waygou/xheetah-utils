@@ -27,7 +27,7 @@ class ServiceProvider extends BaseServiceProvider
         }
 
         $this->publishes([
-            __DIR__.'/../resources/'     => resource_path('svg/vendor/xheetah-utils/'),
+            __DIR__.'/../resources/' => resource_path('svg/vendor/xheetah-utils/'),
         ], 'xheetah-utils-resources');
     }
 
